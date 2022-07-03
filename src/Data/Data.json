@@ -2,7 +2,7 @@
   {
     "name": "Rice",
     "email": "abcde@gmail.com",
-    "username": "admin",
+    "username": "qwerty",
     "password": "qwertyuiop123#$",
     "gender": "male",
     "dob": "2022-07-03"
@@ -13,6 +13,14 @@
     "username": "admin",
     "password": "qwertyuiop123#$",
     "gender": "male",
+    "dob": "2022-07-03"
+  },
+  {
+    "name": "asd",
+    "email": "abcde@gmail.com",
+    "username": "jhon",
+    "password": "qwertyuiop123#$",
+    "gender": "female",
     "dob": "2022-07-03"
   }
 ]

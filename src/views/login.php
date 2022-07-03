@@ -1,7 +1,14 @@
 <?php
 
     session_start();
+    
     include("../controllers/login_controller.php");
+
+    if(isset($_SESSION["login"]) && $_SESSION["login"] == false){
+        echo "* User not found";
+        unset($_SESSION["login"]);
+    }
+
     include("./includes/Header.php");
 ?>
 

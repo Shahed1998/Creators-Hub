@@ -28,6 +28,7 @@
                     $_SESSION['gender'] = $row['gender'];                                
                     $_SESSION['dob'] = $row['dob'];                                                
                     $_SESSION['username'] = $row['username'];   
+                    $_SESSION['password'] = $row['password']; 
 
                 }
             }
