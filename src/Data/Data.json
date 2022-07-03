@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Rice",
+    "email": "abcde@gmail.com",
+    "username": "admin",
+    "password": "qwertyuiop123#$",
+    "gender": "male",
+    "dob": "2022-07-03"
+  }
+]
