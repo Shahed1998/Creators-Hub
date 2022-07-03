@@ -163,18 +163,5 @@
     $data = htmlspecialchars($data);
     return $data;
     } 
-
-    //  if(isset($message))  
-    //  {  
-    //  echo $message;  
-    //  }
-    //  if(isset($error))  
-    //  {  
-    //       echo $error;  
-    //  } 
-    //  if(isset($message_1))
-    //  {
-    //       echo $message_1;
-    //  }  
  
 ?>   

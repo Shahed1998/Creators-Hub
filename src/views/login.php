@@ -1,4 +1,9 @@
-<?php include("./includes/Header.php"); ?>
+<?php
+
+    session_start();
+    include("../controllers/login_controller.php");
+    include("./includes/Header.php");
+?>
 
     <form method="post">
         <fieldset>
@@ -15,7 +20,15 @@
             class="input-field">
             <br>
 
-            <input type="checkbox" name="remember" /> Remember me
+            <?php
+
+                if(isset($_COOKIE["remember_checkbox"])){
+                    echo "<input checked type='checkbox' name='remember' />";
+                }else{
+                    echo "<input type='checkbox' name='remember' />";
+                }
+
+            ?>  Remember me
             <br>
 
             <label>Login</label>
